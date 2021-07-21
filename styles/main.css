@@ -15,7 +15,6 @@ body {
 .logo {
   width: 155px;
   display: block;
-
   margin-top: 10px;
 }
 .ul-menu {
@@ -24,11 +23,21 @@ body {
   width: 100vw;
   justify-content: center;
   align-items: center;
+  margin-bottom: 13px;
 }
+.link,
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: none;
+}
+
 .link {
   margin: 10px;
+
   font-size: 16px;
 }
+
 .main {
   height: 100vh;
   display: flex;
@@ -38,5 +47,9 @@ body {
   background-color: #3cdbc0;
   color: #ffffff;
   font-size: 30px;
+  font-weight: bold;
   text-align: center;
+}
+.h1 {
+  width: 155px;
 }
