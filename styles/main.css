@@ -83,3 +83,47 @@ body {
     align-items: center;
   }
 }
+
+/* BLOG */
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.blog-header {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.blog-logo {
+  width: 155px;
+  display: block;
+  margin-top: 10px;
+}
+
+.blog-h1 {
+  text-transform: uppercase;
+  color: #3cdbc0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.body-nav {
+  margin: 20px;
+}
+.body-link,
+.body-link:hover,
+.body-link:focus,
+.body-link:active {
+  text-decoration: none;
+}
+
+.body-link {
+  margin: 10px;
+  font-size: 16px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
