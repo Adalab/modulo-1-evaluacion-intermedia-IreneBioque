@@ -24,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 13px;
+  margin-top: 10px;
 }
 .link,
 .link:hover,
@@ -34,7 +35,6 @@ body {
 
 .link {
   margin: 10px;
-
   font-size: 16px;
 }
 
@@ -52,4 +52,27 @@ body {
 }
 .h1 {
   width: 155px;
+}
+@media all and (min-width: 768px) {
+  /* .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
+  .header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logo {
+    position: relative;
+    left: 80px;
+    margin: 20px;
+    margin-left: 30px;
+  }
+  .ul-menu {
+    position: relative;
+    left: 280px;
+  }
 }
