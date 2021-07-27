@@ -20,7 +20,6 @@ body {
 .ul-menu {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: center;
   align-items: center;
   margin-bottom: 13px;
@@ -34,7 +33,7 @@ body {
 }
 
 .link {
-  margin: 10px;
+  padding: 10px;
   font-size: 16px;
   color: #4a4a4a;
   text-transform: uppercase;
@@ -58,16 +57,11 @@ body {
 }
 @media all and (min-width: 768px) {
   .header {
-    width: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .menu {
     margin: 20px;
-  }
-  .ul-menu {
-    width: 100%;
   }
   .logo {
     margin: 20px;
@@ -75,7 +69,6 @@ body {
   }
   .main {
     font-size: 40px;
-    text-align: center;
   }
   .h1 {
     display: flex;
